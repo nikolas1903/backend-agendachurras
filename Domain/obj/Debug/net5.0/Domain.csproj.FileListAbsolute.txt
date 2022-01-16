@@ -1,0 +1,14 @@
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\Domain.csproj.CopyComplete
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\nikol\Desktop\Desafio Trinca\AgendaChurras\Domain\obj\Debug\net5.0\Domain.pdb

@@ -54,6 +54,13 @@ namespace AgendaChurras.Controllers
         }
         
         [Produces("application/json")]
+        [HttpGet("BuscarConvidadosPorChurrasco")]
+        public async Task<RespostaPadrao> BuscarConvidadosPorChurrasco(int idChurrasco)
+        {
+            return await _churrascoAppService.BuscarConvidadosPorChurrasco(idChurrasco);
+        }
+        
+        [Produces("application/json")]
         [HttpDelete("ExcluirConvidado")]
         public async Task<RespostaPadrao> ExcluirConvidado([FromBody] ExcluirConvidadoRequest request)
         {

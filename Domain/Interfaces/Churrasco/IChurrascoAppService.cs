@@ -11,6 +11,7 @@ namespace Domain.Interfaces.Churrasco
         Task<RespostaPadrao> ConfirmarConvidado(ConfirmarConvidadoRequest request);
         Task<RespostaPadrao> BuscarChurrascoPorId(int idChurrasco);
         Task<RespostaPadrao> BuscarChurrascos();
+        Task<RespostaPadrao> BuscarConvidadosPorChurrasco(int idChurrasco);
         Task<RespostaPadrao> ExcluirConvidado(ExcluirConvidadoRequest request);
     }
 }

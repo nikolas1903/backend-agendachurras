@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Data.Context;
 using Domain.Entities;
@@ -71,6 +72,27 @@ namespace Data.Repository
                 await _context.SaveChangesAsync();
 
                 return request;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public async Task<IEnumerable<ChurrascoUsuarioEntity>> BuscarConvidadosPorChurrasco(int idChurrasco)
+        {
+            try
+            {
+                var lConvidados = await _dataSet.ToListAsync();
+                var convidados = new List<ChurrascoUsuarioEntity>();
+                
+                foreach (var convidado in lConvidados)
+                {
+                    if (convidado.ChurrascoId == idChurrasco)
+                        convidados.Add(convidado);
+                }
+
+                return convidados;
             }
             catch (Exception ex)
             {

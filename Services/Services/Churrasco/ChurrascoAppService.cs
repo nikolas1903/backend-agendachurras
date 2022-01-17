@@ -142,6 +142,23 @@ namespace Services.Services.Churrasco
             }
         }
 
+        public async Task<RespostaPadrao> BuscarConvidadosPorChurrasco(int idChurrasco)
+        {
+            try
+            {
+                var lConvidados = await _churrascoUsuarioRepository.BuscarConvidadosPorChurrasco(idChurrasco);
+                if (lConvidados == null)
+                    return new RespostaPadrao().Falha("Nenhum convidado para este evento.", null);
+                
+                return new RespostaPadrao().Sucesso("", lConvidados);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+
         /*
          * Método responsável por excluir um convidado do churrasco.
          * É feita a validação se este usuário foi convidado para o churrasco ou não, e se o churrasco e usuário existem.
